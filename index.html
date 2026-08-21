@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Imperium Mediaevalis — map</title>
+    <link href="https://api.fontshare.com/v2/css?f[]=boska@400,500&f[]=satoshi@400,500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./base.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <a class="skip" href="#stage" data-i18n="skip">Skip to the map</a>
+    <header class="top">
+      <div class="brand">
+        <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <circle cx="16" cy="16" r="13" stroke="currentColor" stroke-width="1.5" />
+          <path d="M16 4 V28 M4 16 H28" stroke="currentColor" stroke-width="1.2" />
+          <path d="M16 7 L18.2 16 L16 25 L13.8 16 Z" fill="currentColor" />
+        </svg>
+        <div>
+          <h1>Imperium Mediaevalis</h1>
+          <p data-i18n="subtitle">Map 1050–1450 · sovereigns 1261</p>
+        </div>
+      </div>
+      <nav class="langs" aria-label="Language" data-langs></nav>
+      <button type="button" data-theme-toggle aria-label="Toggle theme"></button>
+    </header>
+    <div class="workspace">
+      <main id="stage" class="stage" tabindex="-1"></main>
+      <aside id="panel" class="panel" aria-live="polite"></aside>
+    </div>
+    <script src="./app.js" defer></script>
+  </body>
+</html>

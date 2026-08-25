@@ -1,0 +1,9173 @@
+{
+  "source": "Adjacences.csv",
+  "id_scheme": {
+    "T": "land territory",
+    "C": "coastal area (Cnnn belongs to Tnnn; suffix s = south face)",
+    "M": "sea / high seas",
+    "D": "great desert"
+  },
+  "movement": {
+    "edge_type": "implied by endpoints: T–T land, C–C cabotage 1, C–M high seas, T–D desert",
+    "extra_cost": {
+      "0": "no extra",
+      "1": "river",
+      "3": "strait (encoded in table; rulebook still +2 until confirmed)"
+    },
+    "overlap": "same number is one place, two layers: T land units, C ships and ports. Not an adjacency.",
+    "high_seas_mp": {
+      "without_astronomy": 6,
+      "with_astronomy": 2,
+      "status": "proposal"
+    }
+  },
+  "counts": {
+    "zones": 276,
+    "land": 162,
+    "coastal": 105,
+    "coastal_south": 2,
+    "seas": 8,
+    "great_deserts": 1
+  },
+  "zones": [
+    {
+      "id": "T001",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T091",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T097",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T144",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T002",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T110",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T141",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T003",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T048",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T004",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T005",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T065",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T102",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T105",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T149",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T006",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T048",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T080",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T091",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T007",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T025",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T026",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T033",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T100",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T008",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T007",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T025",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T026",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T062",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T103",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T009",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T031",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T062",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T091",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T099",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T103",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T153",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T010",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T013",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T028",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T032",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T111",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T116",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T011",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T058",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T080",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T012",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T065",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T067",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T105",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "D001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "T013",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T010",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T028",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T074",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T094",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T107",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T111",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T137",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T014",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": []
+    },
+    {
+      "id": "T015",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T022",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T108",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T120",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T146",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T151",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T016",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T032",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T036",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T063",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T139",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T140",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T017",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T024",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T055",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T085",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T133",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T135",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T143",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T018",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T054",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T068",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T095",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T104",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T152",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T161",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T019",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T022",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T046",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T047",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T059",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T134",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T146",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T151",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T020",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T029",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T104",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T161",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T021",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T054",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T068",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T084",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T114",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T127",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T152",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T022",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T015",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T019",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T059",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T108",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T112",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T132",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T146",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T023",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T098",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T109",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T024",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T017",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T115",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T125",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T129",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T132",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T135",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T143",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T025",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T007",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T008",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T033",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T086",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T103",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T106",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T118",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T133",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T026",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T007",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T100",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T027",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T078",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T028",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T010",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T013",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T035",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T109",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T116",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T137",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T029",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T020",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T052",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T077",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T104",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T030",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T009",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T011",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T062",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T080",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T091",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T099",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T031",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T009",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T103",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T153",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T032",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T010",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T016",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T063",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T111",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T116",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T033",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T007",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T025",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T053",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T086",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T100",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T034",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": []
+    },
+    {
+      "id": "T035",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T028",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T109",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T137",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T036",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T016",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T040",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        },
+        {
+          "id": "T063",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T134",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T140",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T037",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T124",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T038",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T051",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T083",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T084",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T119",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T039",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": []
+    },
+    {
+      "id": "T040",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T036",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        },
+        {
+          "id": "T134",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T041",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T044",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T131",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T042",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T061",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T087",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T158",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T043",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T081",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T092",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "D001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "T044",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T041",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T131",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T045",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T147",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "D001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "T046",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T019",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T151",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T159",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T047",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T019",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T069",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T113",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T127",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T134",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T140",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T048",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T003",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T006",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T058",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T080",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T049",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T092",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T130",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T050",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T157",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T158",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T051",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T038",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T054",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T077",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T084",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T052",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T029",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T077",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T101",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T053",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T033",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T056",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T086",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T100",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T157",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T054",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T018",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T021",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T051",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T077",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T084",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T152",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T055",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T017",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T106",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T133",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T143",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T056",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T053",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T086",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T106",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T125",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T143",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T057",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T045",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T102",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T149",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "D001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "T058",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T011",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T048",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T080",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T059",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T019",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T022",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T112",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T113",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T156",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T060",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T042",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T079",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T158",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T061",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T042",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T087",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T150",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T062",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T008",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T009",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T099",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T103",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T063",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T016",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T032",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T036",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T116",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T064",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T136",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T155",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T065",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T012",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T102",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T105",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "D001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "T066",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T083",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T112",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T115",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T119",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T129",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T156",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T067",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T012",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T093",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T105",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T122",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T138",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "D001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "T068",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T018",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T021",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T069",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T095",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T127",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T152",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T069",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T047",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T068",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T095",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T127",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T139",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T140",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T160",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T070",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T087",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T071",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T115",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T125",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T072",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T148",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T155",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T073",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": []
+    },
+    {
+      "id": "T074",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T013",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T075",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T130",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T162",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T075",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T074",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T107",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T130",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T076",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T071",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T125",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T126",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T077",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T029",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T051",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T052",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T054",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T104",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T152",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T078",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T027",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T145",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T079",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T096",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T080",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T006",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T011",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T048",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T058",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T091",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T081",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T043",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T147",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "D001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "T082",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T085",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T118",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T145",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T083",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T038",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T066",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T084",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T113",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T114",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T119",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T156",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T084",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T021",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T038",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T051",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T054",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T083",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T114",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T085",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T017",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T082",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T118",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T133",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T145",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T086",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T025",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T033",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T053",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T056",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T106",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T087",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T042",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T061",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T070",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T158",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T088",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T023",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T035",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T098",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T109",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T121",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T089",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T098",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T121",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        },
+        {
+          "id": "T142",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T090",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T046",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T141",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T159",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T091",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T009",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T080",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T097",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T153",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T092",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T043",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T049",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "D001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "T093",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T067",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T123",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T138",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T094",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T013",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T111",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T162",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T095",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T018",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T068",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T069",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T160",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T161",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T096",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T079",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T097",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T091",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T153",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T098",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T023",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T142",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T099",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T009",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T062",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T100",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T007",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T026",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T033",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T053",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T101",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T052",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        },
+        {
+          "id": "T136",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T148",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T102",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T065",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T149",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "D001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "T103",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T009",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T025",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T031",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T062",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T118",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T104",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T018",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T020",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T029",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T077",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T152",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T161",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T105",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T012",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T065",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T067",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T122",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T106",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T025",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T055",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T056",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T086",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T133",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T143",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T107",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T013",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T075",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T137",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T108",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T015",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T022",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T131",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T132",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T135",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T109",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T023",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T028",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T035",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T116",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T110",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T141",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T111",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T010",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T013",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T032",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T094",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T112",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T022",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T059",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T066",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T129",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T132",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T156",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T113",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T047",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T059",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T083",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T114",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T127",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T156",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T114",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T021",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T083",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T084",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T113",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T127",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T115",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T024",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T066",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T071",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T125",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T129",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T116",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T010",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T028",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T032",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T063",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T109",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T117",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T027",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T128",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        },
+        {
+          "id": "T078",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T118",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T025",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T082",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T085",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T103",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T133",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T119",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T038",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T066",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T083",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T120",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T015",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T044",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T131",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T151",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T159",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T121",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T088",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        },
+        {
+          "id": "T089",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T122",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T067",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T105",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T123",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T093",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T138",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T124",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T037",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T125",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T024",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T056",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T071",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T115",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T143",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T126",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T064",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T076",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        },
+        {
+          "id": "T136",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T127",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T021",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T047",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T068",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T069",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T113",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T114",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T128",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T117",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T129",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T024",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T066",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T112",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T115",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T132",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T130",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T049",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T074",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T075",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T162",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T131",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T041",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T044",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T108",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T135",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T132",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T022",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T024",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T108",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T112",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T129",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T135",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T133",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T017",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T025",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T055",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T085",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T106",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T118",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T134",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T019",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T036",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T040",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T047",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T140",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T135",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T017",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T024",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T108",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T131",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T132",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T136",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T064",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T101",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T148",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T155",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T137",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T013",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T028",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T035",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T107",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T138",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T067",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T093",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T123",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "D001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "T139",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T016",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T069",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T140",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T160",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T140",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T016",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T036",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T047",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T069",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T134",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T139",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T141",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T110",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T142",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T046",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T089",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        },
+        {
+          "id": "T090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T098",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T143",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T017",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T024",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T055",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T056",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T106",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T125",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T144",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T001",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        },
+        {
+          "id": "T067",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T093",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T122",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T145",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T078",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T082",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T085",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T154",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T146",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T015",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T019",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T022",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T151",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T147",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T045",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T081",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "D001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "T148",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T072",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T101",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T136",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T155",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T149",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T102",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T150",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T061",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        },
+        {
+          "id": "T079",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T096",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T151",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T015",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T019",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T046",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T120",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T146",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T159",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T152",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T018",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T021",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T054",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T068",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T077",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T104",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T153",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T009",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T031",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T091",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T097",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T154",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T017",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T041",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T078",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T085",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T131",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T135",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T145",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T155",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T064",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T072",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T136",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T148",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T156",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T059",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T066",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T083",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T112",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T113",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T157",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T050",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T053",
+          "extra_cost": 3,
+          "feature": "strait",
+          "edge": "land"
+        },
+        {
+          "id": "T060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T158",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T158",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T042",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T050",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T087",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T159",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T046",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T151",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T160",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T069",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T095",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T139",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T161",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T161",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T018",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T020",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T095",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        },
+        {
+          "id": "T104",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T160",
+          "extra_cost": 1,
+          "feature": "river",
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "T162",
+      "kind": "land",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T074",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T094",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        },
+        {
+          "id": "T130",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "land"
+        }
+      ]
+    },
+    {
+      "id": "C001",
+      "kind": "coastal",
+      "parent_id": "T001",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C097",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "kind": "coastal",
+      "parent_id": "T002",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C110",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "kind": "coastal",
+      "parent_id": "T003",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C048",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "kind": "coastal",
+      "parent_id": "T004",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "kind": "coastal",
+      "parent_id": "T005",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C105",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C149",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "kind": "coastal",
+      "parent_id": "T006",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "kind": "coastal",
+      "parent_id": "T008",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C026",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C062",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C011",
+      "kind": "coastal",
+      "parent_id": "T011",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C058",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C014",
+      "kind": "coastal",
+      "parent_id": "T014",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C016",
+      "kind": "coastal",
+      "parent_id": "T016",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C032",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C139",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M007",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C019",
+      "kind": "coastal",
+      "parent_id": "T019",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C040",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C046",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C023",
+      "kind": "coastal",
+      "parent_id": "T023",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C098",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C109",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C026",
+      "kind": "coastal",
+      "parent_id": "T026",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C100",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C027",
+      "kind": "coastal",
+      "parent_id": "T027",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C078",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C030",
+      "kind": "coastal",
+      "parent_id": "T030",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C011",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C062",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C031",
+      "kind": "coastal",
+      "parent_id": "T031",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C103",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C153",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C032",
+      "kind": "coastal",
+      "parent_id": "T032",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C016",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M007",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C034",
+      "kind": "coastal",
+      "parent_id": "T034",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C035",
+      "kind": "coastal",
+      "parent_id": "T035",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C137",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C036",
+      "kind": "coastal",
+      "parent_id": "T036",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C040",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C063",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C134",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C037",
+      "kind": "coastal",
+      "parent_id": "T037",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C124",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C038",
+      "kind": "coastal",
+      "parent_id": "T038",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C051",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C119",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C039",
+      "kind": "coastal",
+      "parent_id": "T039",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C040",
+      "kind": "coastal",
+      "parent_id": "T040",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C019",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C036",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C134",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C041",
+      "kind": "coastal",
+      "parent_id": "T041",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C044",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C042",
+      "kind": "coastal",
+      "parent_id": "T042",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C061",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        }
+      ]
+    },
+    {
+      "id": "C043",
+      "kind": "coastal",
+      "parent_id": "T043",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C081",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C092",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C044",
+      "kind": "coastal",
+      "parent_id": "T044",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C041",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C045",
+      "kind": "coastal",
+      "parent_id": "T045",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C147",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C046",
+      "kind": "coastal",
+      "parent_id": "T046",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C019",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C048",
+      "kind": "coastal",
+      "parent_id": "T048",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C058",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C049",
+      "kind": "coastal",
+      "parent_id": "T049",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C092",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C130",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C049s",
+      "kind": "coastal",
+      "parent_id": "T049",
+      "face": "south",
+      "adjacencies": [
+        {
+          "id": "C130s",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C050",
+      "kind": "coastal",
+      "parent_id": "T050",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C158",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C051",
+      "kind": "coastal",
+      "parent_id": "T051",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C038",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C052",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C077",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C052",
+      "kind": "coastal",
+      "parent_id": "T052",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C051",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C077",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C101",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C053",
+      "kind": "coastal",
+      "parent_id": "T053",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C056",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C100",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C056",
+      "kind": "coastal",
+      "parent_id": "T056",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C053",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C125",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C057",
+      "kind": "coastal",
+      "parent_id": "T057",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C045",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C149",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C058",
+      "kind": "coastal",
+      "parent_id": "T058",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C011",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C048",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C060",
+      "kind": "coastal",
+      "parent_id": "T060",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C042",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C079",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C061",
+      "kind": "coastal",
+      "parent_id": "T061",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C042",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C070",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C062",
+      "kind": "coastal",
+      "parent_id": "T062",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C063",
+      "kind": "coastal",
+      "parent_id": "T063",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C036",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C116",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C064",
+      "kind": "coastal",
+      "parent_id": "T064",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C155",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C066",
+      "kind": "coastal",
+      "parent_id": "T066",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C115",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C119",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C070",
+      "kind": "coastal",
+      "parent_id": "T070",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C061",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C087",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C071",
+      "kind": "coastal",
+      "parent_id": "T071",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C115",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C072",
+      "kind": "coastal",
+      "parent_id": "T072",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C155",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C073",
+      "kind": "coastal",
+      "parent_id": "T073",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C075",
+      "kind": "coastal",
+      "parent_id": "T075",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C107",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C130",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C076",
+      "kind": "coastal",
+      "parent_id": "T076",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C071",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C125",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C077",
+      "kind": "coastal",
+      "parent_id": "T077",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C051",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C052",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        }
+      ]
+    },
+    {
+      "id": "C078",
+      "kind": "coastal",
+      "parent_id": "T078",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C027",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C145",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C079",
+      "kind": "coastal",
+      "parent_id": "T079",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C096",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C081",
+      "kind": "coastal",
+      "parent_id": "T081",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C043",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C147",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C082",
+      "kind": "coastal",
+      "parent_id": "T082",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C118",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C145",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C087",
+      "kind": "coastal",
+      "parent_id": "T087",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C070",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C158",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C088",
+      "kind": "coastal",
+      "parent_id": "T088",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C035",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C121",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C089",
+      "kind": "coastal",
+      "parent_id": "T089",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C098",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C121",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C090",
+      "kind": "coastal",
+      "parent_id": "T090",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C141",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C092",
+      "kind": "coastal",
+      "parent_id": "T092",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C043",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C049",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C093",
+      "kind": "coastal",
+      "parent_id": "T093",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C123",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C096",
+      "kind": "coastal",
+      "parent_id": "T096",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C079",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C097",
+      "kind": "coastal",
+      "parent_id": "T097",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C153",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C098",
+      "kind": "coastal",
+      "parent_id": "T098",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C023",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C100",
+      "kind": "coastal",
+      "parent_id": "T100",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C026",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C053",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        }
+      ]
+    },
+    {
+      "id": "C101",
+      "kind": "coastal",
+      "parent_id": "T101",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C052",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C136",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C103",
+      "kind": "coastal",
+      "parent_id": "T103",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C031",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C118",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C105",
+      "kind": "coastal",
+      "parent_id": "T105",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C122",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C107",
+      "kind": "coastal",
+      "parent_id": "T107",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C075",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C137",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C109",
+      "kind": "coastal",
+      "parent_id": "T109",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C023",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C116",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C110",
+      "kind": "coastal",
+      "parent_id": "T110",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C141",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C115",
+      "kind": "coastal",
+      "parent_id": "T115",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C066",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C071",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C116",
+      "kind": "coastal",
+      "parent_id": "T116",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C063",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C109",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C117",
+      "kind": "coastal",
+      "parent_id": "T117",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C027",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C128",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C118",
+      "kind": "coastal",
+      "parent_id": "T118",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C082",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C103",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C119",
+      "kind": "coastal",
+      "parent_id": "T119",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C038",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C066",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C120",
+      "kind": "coastal",
+      "parent_id": "T120",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C044",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C121",
+      "kind": "coastal",
+      "parent_id": "T121",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C122",
+      "kind": "coastal",
+      "parent_id": "T122",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C105",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C123",
+      "kind": "coastal",
+      "parent_id": "T123",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C093",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C124",
+      "kind": "coastal",
+      "parent_id": "T124",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C037",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C125",
+      "kind": "coastal",
+      "parent_id": "T125",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C056",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C126",
+      "kind": "coastal",
+      "parent_id": "T126",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C064",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C136",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C128",
+      "kind": "coastal",
+      "parent_id": "T128",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C130",
+      "kind": "coastal",
+      "parent_id": "T130",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C049",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C075",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C130s",
+      "kind": "coastal",
+      "parent_id": "T130",
+      "face": "south",
+      "adjacencies": [
+        {
+          "id": "C049s",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C162",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C134",
+      "kind": "coastal",
+      "parent_id": "T134",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C036",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C040",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        }
+      ]
+    },
+    {
+      "id": "C136",
+      "kind": "coastal",
+      "parent_id": "T136",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C101",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C137",
+      "kind": "coastal",
+      "parent_id": "T137",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C035",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C107",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C139",
+      "kind": "coastal",
+      "parent_id": "T139",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C016",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M007",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C141",
+      "kind": "coastal",
+      "parent_id": "T141",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C110",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C142",
+      "kind": "coastal",
+      "parent_id": "T142",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C046",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C098",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C144",
+      "kind": "coastal",
+      "parent_id": "T144",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C093",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C122",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C145",
+      "kind": "coastal",
+      "parent_id": "T145",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C078",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C082",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C147",
+      "kind": "coastal",
+      "parent_id": "T147",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C045",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C081",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C149",
+      "kind": "coastal",
+      "parent_id": "T149",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C150",
+      "kind": "coastal",
+      "parent_id": "T150",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C042",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C061",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C079",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C096",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C153",
+      "kind": "coastal",
+      "parent_id": "T153",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C031",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C097",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C154",
+      "kind": "coastal",
+      "parent_id": "T154",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C041",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C155",
+      "kind": "coastal",
+      "parent_id": "T155",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C064",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C072",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C157",
+      "kind": "coastal",
+      "parent_id": "T157",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C026",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C050",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C053",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C100",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C158",
+      "kind": "coastal",
+      "parent_id": "T158",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C050",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C087",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C162",
+      "kind": "coastal",
+      "parent_id": "T162",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C130s",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "D001",
+      "kind": "great_desert",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T012",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T043",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T045",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T065",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T067",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T081",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T092",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T102",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T138",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T147",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "M001",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C019",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C023",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C036",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C040",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C046",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C063",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C098",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C109",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C116",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M002",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C034",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C035",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C039",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C041",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C043",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C044",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C045",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C049",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C075",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C081",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C092",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C107",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C110",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C121",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C128",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C130",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C137",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C141",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C147",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C149",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M003",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C014",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C027",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C031",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C037",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C078",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C082",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C097",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C103",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C105",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C118",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C122",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C124",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C128",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C145",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C149",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C153",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M004",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C011",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C026",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C048",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C058",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C061",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C062",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C070",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C073",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C079",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C093",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C096",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C123",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M005",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C050",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C053",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C056",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C064",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C070",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C072",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C087",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C125",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C155",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C158",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M006",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C038",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C051",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C052",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C066",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C071",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C101",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C115",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C119",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C136",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M007",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C016",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C032",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C139",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M008",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C049s",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C130s",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C162",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    }
+  ]
+}

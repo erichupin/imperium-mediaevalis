@@ -1,0 +1,277 @@
+﻿Index;Souverain;Nom;Terrain;MP;Ville;Production
+T001;Royaume de Grenade;Al-Andalus;Collines;2;;
+T002;Despotat d'Épire;Albanie;Collines;2;;
+T003;Royaume du Portugal;Alentejo;Plaines;1;Lisbonne;Vin
+T004;Royaume du Portugal;Algarve;Plaines;1;;
+T005;Sultanat Hafside;Algérie;Collines;2;;
+T006;Couronne de Castille;Andalousie;Plaines;1;;
+T007;Royaume de France;Anjou;Plaines;1;;
+T008;Royaume d'Angleterre;Aquitaine;Forêts;2;;
+T009;Couronne d'Aragon;Aragon;Montagnes;3;;
+T010;Khanat de Perse;Arménie;Montagnes;3;;
+T011;Couronne de Castille;Asturies;Collines;2;;
+T012;Émirat Zianide;Atlas;Collines;2;;
+T013;Sultanat Mamelouk;Badiya;Désert;1;Damas;Métal
+T014;Couronne d'Aragon;Baléares;Plaines;1;;
+T015;Royaume de Hongrie;Banat;Plaines;1;;
+T016;Khanat de la Horde d'Or;Basse Volga;Plaines;1;Saraï;Épices
+T017;Saint-Empire Germanique;Bavière;Montagnes;3;;
+T018;République de Novgorod;Beloïe;Forêts;2;;
+T019;Khanat de la Horde d'Or;Bessarabie;Plaines;1;;
+T020;République de Novgorod;Biarmie;Forêts;2;;
+T021;Principauté de Polotsk;Biélorussie;Forêts;2;;
+T022;Royaume de Hongrie;Bihar;Forêts;2;;
+T023;Empire Byzantin;Bithynie;Collines;2;;
+T024;Royaume de Bohême;Bohême;Forêts;2;Prague;Métal
+T025;Royaume de France;Bourgogne;Forêts;2;;
+T026;Duché de Bretagne;Bretagne;Forêts;2;;
+T027;Royaume de Sicile;Campanie;Collines;2;Naples;Sel
+T028;Sultanat de Roum;Cappadoce;Collines;2;;
+T029;Royaume de Suède;Carélie;Forêts;2;;
+T030;Couronne de Castille;Castille;Plaines;1;;
+T031;Couronne d'Aragon;Catalogne;Collines;2;Barcelone;Vin
+T032;Khanat de Perse;Caucase;Montagnes;3;;
+T033;Royaume de France;Champagne;Plaines;1;Paris;Céréales
+T034;Royaume de Chypre;Chypre;Plaines;1;;
+T035;Royaume Arménien de Cilicie;Cilicie;Plaines;1;;
+T036;Khanat de la Horde d'Or;Circassie;Plaines;1;;
+T037;République de Gênes;Corse;Collines;2;;
+T038;États Teutoniques;Courlande;Plaines;1;Riga;Esclaves
+T039;République de Venise;Crète;Plaines;1;Candie;Vin
+T040;République de Gênes;Crimée;Plaines;1;Caffa;Tissu
+T041;Royaume de Hongrie;Croatie;Forêts;2;;
+T042;Royaume d'Angleterre;Cumbrie;Forêts;2;;
+T043;Sultanat Mamelouk;Cyrénaïque;Désert;1;;
+T044;République de Venise;Dalmatie;Collines;2;;
+T045;Sultanat Hafside;Djerba;Désert;1;;
+T046;Second Empire Bulgare;Dobroudja;Plaines;1;;
+T047;Khanat de la Horde d'Or;Donets;Plaines;1;;
+T048;Royaume du Portugal;Douro;Plaines;1;;
+T049;Sultanat Mamelouk;Égypte;Désert;1;;
+T050;Royaume d'Angleterre;Est-Anglia;Plaines;1;Londres;Tissu
+T051;États Teutoniques;Estonie;Forêts;2;;
+T052;Royaume de Suède;Finlande;Forêts;2;;
+T053;Royaume de France;Flandre;Plaines;1;Bruges;Tissu
+T054;République de Novgorod;Forêt d'Okov;Forêts;2;Novgorod;Fourrures
+T055;Saint-Empire Germanique;Franconie;Forêts;2;Cologne;Métal
+T056;Saint-Empire Germanique;Frise;Plaines;1;;
+T057;Sultanat Hafside;Gabès;Désert;1;;
+T058;Couronne de Castille;Galice;Forêts;2;Saint-Jacques de Compostelle;Sel
+T059;Principauté de Galicie-Volhynie;Galicie;Plaines;1;;
+T060;Royaume de Gwynedd;Galles;Collines;2;;
+T061;Royaume d'Écosse;Galloway;Collines;2;;
+T062;Royaume d'Angleterre;Gascogne;Plaines;1;Bordeaux;Vin
+T063;Royaume de Géorgie;Géorgie;Montagnes;3;;
+T064;Royaume de Suède;Gotaland;Forêts;2;;
+T065;Cheikhat de l'Atlas;Grand Erg;Collines;2;;
+T066;Royaume de Pologne;Grande Pologne;Plaines;1;Danzig;Fourrures
+T067;Sultanat Mérinide;Haut Atlas;Montagnes;3;;
+T068;Principauté de Smolensk;Haute Ruthénie;Plaines;1;;
+T069;Principauté de Murom/Ryazan;Haute Volga;Plaines;1;;
+T070;Royaume d'Écosse;Highlands;Collines;2;;
+T071;Royaume du Danemark;Holstein;Plaines;1;Lubeck;Céréales
+T072;Royaume de Norvège;Hordaland;Collines;2;Bergen;Fourrures
+T073;Royaume de Norvège;Islande;Collines;2;;
+T074;Sultanat Mamelouk;Jordanie;Désert;1;;
+T075;Sultanat Mamelouk;Judée;Désert;1;Jérusalem;Sel
+T076;Royaume du Danemark;Jutland;Plaines;1;;
+T077;République de Novgorod;Ladoga;Forêts;2;;
+T078;États Pontificaux;Latium;Collines;2;Rome;Vin
+T079;Royaume d'Angleterre;Leinster;Plaines;1;Dublin;Fourrures
+T080;Couronne de Castille;León;Plaines;1;;
+T081;Sultanat Hafside;Leptis Magna;Désert;1;;
+T082;République de Gênes;Ligurie;Collines;2;Gênes;Tissu
+T083;Grand-Duché de Lituanie;Lituanie;Plaines;1;;
+T084;États Teutoniques;Livonie;Forêts;2;;
+T085;Commune de Milan;Lombardie;Plaines;1;;
+T086;Royaume de France;Lorraine;Forêts;2;;
+T087;Royaume d'Écosse;Lowlands;Collines;2;Edimbourg;Tissu
+T088;Sultanat de Roum;Lycie;Collines;2;;
+T089;Empire Byzantin;Lydie;Collines;2;;
+T090;Empire Byzantin;Macédoine;Collines;2;;
+T091;Couronne de Castille;Manche;Collines;2;Tolède;Métal
+T092;Sultanat Mamelouk;Marmarique;Désert;1;Alexandrie;Épices
+T093;Sultanat Mérinide;Massa;Plaines;1;;
+T094;Khanat de Perse;Mésopotamie;Plaines;1;;
+T095;Principauté de Vladimir;Moscovie;Plaines;1;Moscou;Esclaves
+T096;Royaume de Munster;Munster;Plaines;1;;
+T097;Couronne de Castille;Murcie;Collines;2;;
+T098;Empire Byzantin;Mysie;Collines;2;;
+T099;Royaume de Navarre;Navarre;Montagnes;3;;
+T100;Royaume de France;Normandie;Plaines;1;;
+T101;Royaume de Suède;Norrland;Forêts;2;;
+T102;Sultanat Hafside;Oasis du Souf;Désert;1;;
+T103;Royaume de France;Occitanie;Collines;2;;
+T104;République de Novgorod;Onega;Forêts;2;;
+T105;Émirat Zianide;Oranie;Plaines;1;;
+T106;Saint-Empire Germanique;Palatinat;Forêts;2;;
+T107;Comté de Tripoli;Palestine;Collines;2;;
+T108;Royaume de Hongrie;Pannonie;Plaines;1;Buda;Esclaves
+T109;Sultanat de Roum;Paphlagonie;Collines;2;;
+T110;Empire Byzantin;Péloponnèse;Collines;2;;
+T111;Khanat de Perse;Perse;Montagnes;3;;
+T112;Royaume de Pologne;Petite Pologne;Plaines;1;;
+T113;Principauté de Kiev;Podolie;Plaines;1;Kiev;Céréales
+T114;Principauté de Tourov;Polésie;Plaines;1;;
+T115;Duché de Poméranie;Poméranie;Plaines;1;;
+T116;Empire de Trébisonde;Pont;Collines;2;Trébisonde;Épices
+T117;Royaume de Sicile;Pouilles;Plaines;1;;
+T118;Comté de Provence;Provence;Montagnes;3;;
+T119;États Teutoniques;Prusse;Plaines;1;;
+T120;Royaume de Serbie;Rascie;Collines;2;;
+T121;Empire Byzantin;Rhodes;Plaines;1;;
+T122;Sultanat Mérinide;Rif;Collines;2;;
+T123;Califat Almohade;Sahara Occidental;Collines;2;;
+T124;Judicat d'Arborée;Sardaigne;Collines;2;;
+T125;Saint-Empire Germanique;Saxe;Plaines;1;;
+T126;Royaume du Danemark;Scanie;Forêts;2;;
+T127;Principauté de Tchernigov;Sévérie;Plaines;1;;
+T128;Royaume de Sicile;Sicile;Collines;2;Palerme;Céréales
+T129;Duché de Silésie;Silésie;Plaines;1;;
+T130;Sultanat Mamelouk;Sinaï;Désert;1;;
+T131;Royaume de Hongrie;Slavonie;Collines;2;;
+T132;Royaume de Hongrie;Slovaquie;Collines;2;;
+T133;Saint-Empire Germanique;Souabe;Montagnes;3;Bâle;Fourrures
+T134;Khanat de la Horde d'Or;Steppe Pontique;Plaines;1;;
+T135;Royaume de Bohême;Styrie;Montagnes;3;;
+T136;Royaume de Suède;Svealand;Forêts;2;Stockholm;Métal
+T137;Principauté d'Antioche;Syrie;Plaines;1;Antioche;Épices
+T138;Califat Almohade;Tafilalet;Montagnes;3;Sijilmassa;Épices
+T139;Khanat de la Horde d'Or;Tartarie;Désert;1;;
+T140;Khanat de la Horde d'Or;Tchouvasquie;Plaines;1;;
+T141;Duché d'Athènes;Thessalie;Plaines;1;;
+T142;Empire Byzantin;Thrace;Plaines;1;Constantinople;Sel
+T143;Saint-Empire Germanique;Thuringe;Plaines;1;;
+T144;Cheikhat de Tanger;Tingitane;Collines;2;Tanger;Esclaves
+T145;Commune de Florence;Toscane;Collines;2;;
+T146;Royaume de Hongrie;Transylvanie;Collines;2;;
+T147;Sultanat Hafside;Tripolitaine;Désert;1;;
+T148;Royaume de Norvège;Trondelag;Montagnes;3;;
+T149;Sultanat Hafside;Tunisie;Désert;1;Tunis;Céréales
+T150;Royaume d'Ulster;Ulster;Plaines;1;;
+T151;Second Empire Bulgare;Valachie;Plaines;1;;
+T152;République de Novgorod;Valdaï;Collines;2;;
+T153;Couronne d'Aragon;Valencien;Plaines;1;;
+T154;République de Venise;Vénétie;Plaines;1;Venise;Sel
+T155;Royaume de Norvège;Viken;Collines;2;;
+T156;Principauté de Galicie-Volhynie;Volhynie;Forêts;2;;
+T157;Royaume d'Angleterre;Wessex;Plaines;1;;
+T158;Royaume d'Angleterre;Yorkshire;Forêts;2;;
+T159;Second Empire Bulgare;Zagore;Collines;2;Ternovo;Esclaves
+T160;Principauté de Rostov;Zalessie;Plaines;1;;
+T161;République de Novgorod;Zavolochie;Forêts;2;;
+T162;Shérifat de la Mecque;Zubeïda;Désert;1;;
+D001;;Sahara;Désert;6;;
+M001;;Mer Noire;Mer;6;;
+M002;;Méditerranée Orientale;Mer;6;;
+M003;;Méditerranée Occidentale;Mer;6;;
+M004;;Océan Atlantique;Mer;6;;
+M005;;Mer du Nord;Mer;6;;
+M006;;Mer Baltique;Mer;6;;
+M007;;Mer Caspienne;Mer;6;;
+M008;;Mer Rouge;Mer;6;;
+C001;Royaume de Grenade;Al-Andalus;Côte;1;;
+C002;Despotat d'Épire;Albanie;Côte;1;;
+C003;Royaume du Portugal;Alentejo;Côte;1;Lisbonne;Vin
+C004;Royaume du Portugal;Algarve;Côte;1;;
+C005;Sultanat Hafside;Algérie;Côte;1;;
+C006;Couronne de Castille;Andalousie;Côte;1;;
+C008;Royaume d'Angleterre;Aquitaine;Côte;1;;
+C011;Couronne de Castille;Asturies;Côte;1;;
+C014;Couronne d'Aragon;Baléares;Côte;1;;
+C016;Khanat de la Horde d'Or;Basse Volga;Côte;1;Saraï;Épices
+C019;Khanat de la Horde d'Or;Bessarabie;Côte;1;;
+C023;Empire Byzantin;Bithynie;Côte;1;;
+C026;Duché de Bretagne;Bretagne;Côte;1;;
+C027;Royaume de Sicile;Campanie;Côte;1;Naples;Sel
+C030;Couronne de Castille;Castille;Côte;1;;
+C031;Couronne d'Aragon;Catalogne;Côte;1;Barcelone;Vin
+C032;Khanat de Perse;Caucase;Côte;1;;
+C034;Royaume de Chypre;Chypre;Côte;1;;
+C035;Royaume Arménien de Cilicie;Cilicie;Côte;1;;
+C036;Khanat de la Horde d'Or;Circassie;Côte;1;;
+C037;République de Gênes;Corse;Côte;1;;
+C038;États Teutoniques;Courlande;Côte;1;Riga;Esclaves
+C039;République de Venise;Crète;Côte;1;Candie;Vin
+C040;République de Gênes;Crimée;Côte;1;Caffa;Tissu
+C041;Royaume de Hongrie;Croatie;Côte;1;;
+C042;Royaume d'Angleterre;Cumbrie;Côte;1;;
+C043;Sultanat Mamelouk;Cyrénaïque;Côte;1;;
+C044;République de Venise;Dalmatie;Côte;1;;
+C045;Sultanat Hafside;Djerba;Côte;1;;
+C046;Second Empire Bulgare;Dobroudja;Côte;1;;
+C048;Royaume du Portugal;Douro;Côte;1;;
+C049;Sultanat Mamelouk;Égypte;Côte;1;;
+C049s;Sultanat Mamelouk;Égypte Sud;Côte;1;;
+C050;Royaume d'Angleterre;Est-Anglia;Côte;1;Londres;Tissu
+C051;États Teutoniques;Estonie;Côte;1;;
+C052;Royaume de Suède;Finlande;Côte;1;;
+C053;Royaume de France;Flandre;Côte;1;Bruges;Tissu
+C056;Saint-Empire Germanique;Frise;Côte;1;;
+C057;Sultanat Hafside;Gabès;Côte;1;;
+C058;Couronne de Castille;Galice;Côte;1;Saint-Jacques de Compostelle;Sel
+C060;Royaume de Gwynedd;Galles;Côte;1;;
+C061;Royaume d'Écosse;Galloway;Côte;1;;
+C062;Royaume d'Angleterre;Gascogne;Côte;1;Bordeaux;Vin
+C063;Royaume de Géorgie;Géorgie;Côte;1;;
+C064;Royaume de Suède;Gotaland;Côte;1;;
+C066;Royaume de Pologne;Grande Pologne;Côte;1;Danzig;Fourrures
+C070;Royaume d'Écosse;Highlands;Côte;1;;
+C071;Royaume du Danemark;Holstein;Côte;1;Lubeck;Céréales
+C072;Royaume de Norvège;Hordaland;Côte;1;Bergen;Fourrures
+C073;Royaume de Norvège;Islande;Côte;1;;
+C075;Sultanat Mamelouk;Judée;Côte;1;Jérusalem;Sel
+C076;Royaume du Danemark;Jutland;Côte;1;;
+C077;République de Novgorod;Ladoga;Côte;1;;
+C078;États Pontificaux;Latium;Côte;1;Rome;Vin
+C079;Royaume d'Angleterre;Leinster;Côte;1;Dublin;Fourrures
+C081;Sultanat Hafside;Leptis Magna;Côte;1;;
+C082;République de Gênes;Ligurie;Côte;1;Gênes;Tissu
+C087;Royaume d'Écosse;Lowlands;Côte;1;Edimbourg;Tissu
+C088;Sultanat de Roum;Lycie;Côte;1;;
+C089;Empire Byzantin;Lydie;Côte;1;;
+C090;Empire Byzantin;Macédoine;Côte;1;;
+C092;Sultanat Mamelouk;Marmarique;Côte;1;Alexandrie;Épices
+C093;Sultanat Mérinide;Massa;Côte;1;;
+C096;Royaume de Munster;Munster;Côte;1;;
+C097;Couronne de Castille;Murcie;Côte;1;;
+C098;Empire Byzantin;Mysie;Côte;1;;
+C100;Royaume de France;Normandie;Côte;1;;
+C101;Royaume de Suède;Norrland;Côte;1;;
+C103;Royaume de France;Occitanie;Côte;1;;
+C105;Émirat Zianide;Oranie;Côte;1;;
+C107;Comté de Tripoli;Palestine;Côte;1;;
+C109;Sultanat de Roum;Paphlagonie;Côte;1;;
+C110;Empire Byzantin;Péloponnèse;Côte;1;;
+C115;Duché de Poméranie;Poméranie;Côte;1;;
+C116;Empire de Trébisonde;Pont;Côte;1;Trébisonde;Épices
+C117;Royaume de Sicile;Pouilles;Côte;1;;
+C118;Comté de Provence;Provence;Côte;1;;
+C119;États Teutoniques;Prusse;Côte;1;;
+C120;Royaume de Serbie;Rascie;Côte;1;;
+C121;Empire Byzantin;Rhodes;Côte;1;;
+C122;Sultanat Mérinide;Rif;Côte;1;;
+C123;Califat Almohade;Sahara Occidental;Côte;1;;
+C124;Judicat d'Arborée;Sardaigne;Côte;1;;
+C125;Saint-Empire Germanique;Saxe;Côte;1;;
+C126;Royaume du Danemark;Scanie;Côte;1;;
+C128;Royaume de Sicile;Sicile;Côte;1;Palerme;Céréales
+C130;Sultanat Mamelouk;Sinaï;Côte;1;;
+C130s;Sultanat Mamelouk;Sinaï-Sud;Côte;1;;
+C134;Khanat de la Horde d'Or;Steppe Pontique;Côte;1;;
+C136;Royaume de Suède;Svealand;Côte;1;Stockholm;Métal
+C137;Principauté d'Antioche;Syrie;Côte;1;Antioche;Épices
+C139;Khanat de la Horde d'Or;Tartarie;Côte;1;;
+C141;Duché d'Athènes;Thessalie;Côte;1;;
+C142;Empire Byzantin;Thrace;Côte;1;Constantinople;Sel
+C144;Cheikhat de Tanger;Tingitane;Côte;1;Tanger;Esclaves
+C145;Commune de Florence;Toscane;Côte;1;;
+C147;Sultanat Hafside;Tripolitaine;Côte;1;;
+C149;Sultanat Hafside;Tunisie;Côte;1;Tunis;Céréales
+C150;Royaume d'Ulster;Ulster;Côte;1;;
+C153;Couronne d'Aragon;Valencien;Côte;1;;
+C154;République de Venise;Vénétie;Côte;1;Venise;Sel
+C155;Royaume de Norvège;Viken;Côte;1;;
+C157;Royaume d'Angleterre;Wessex;Côte;1;;
+C158;Royaume d'Angleterre;Yorkshire;Côte;1;;
+C162;Shérifat de la Mecque;Zubeïda;Côte;1;;

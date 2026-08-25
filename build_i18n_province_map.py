@@ -2,10 +2,10 @@
 """Build the localized clickable-map dataset from the current source of truth.
 
 Source of truth (2026-08-20 architecture):
-  - Regiones.csv (Latin), Regione.csv (Italian), Régions.csv (French),
-    Regions.csv (English): per-zone sovereign / name / terrain / MP / town /
+  - regions-la.csv (Latin), regions-it.csv (Italian), regions-fr.csv (French),
+    regions-en.csv (English): per-zone sovereign / name / terrain / MP / town /
     production, one row per T/C/M/D zone id.
-  - Adjacences.json: the single language-neutral adjacency graph (kind,
+  - adjacencies.json: the single language-neutral adjacency graph (kind,
     parent_id, face, adjacencies) for the same 276 zone ids.
 
 Output: clickable/province-map.json, with each zone's language-neutral
@@ -22,10 +22,10 @@ from pathlib import Path
 
 MAP_DIR = Path(__file__).resolve().parent
 LANG_FILES = {
-    "la": "Regiones.csv",
-    "it": "Regione.csv",
-    "fr": "Régions.csv",
-    "en": "Regions.csv",
+    "la": "regions-la.csv",
+    "it": "regions-it.csv",
+    "fr": "regions-fr.csv",
+    "en": "regions-en.csv",
 }
 
 
@@ -58,11 +58,11 @@ def main() -> None:
     if common_ids != all_ids:
         raise SystemExit(f"Region files disagree on zone ids: {all_ids - common_ids}")
 
-    graph = json.loads((MAP_DIR / "Adjacences.json").read_text(encoding="utf-8"))
+    graph = json.loads((MAP_DIR / "adjacencies.json").read_text(encoding="utf-8"))
     graph_zones = {z["id"]: z for z in graph["zones"]}
     if set(graph_zones) != common_ids:
         raise SystemExit(
-            "Adjacences.json zone ids do not match region file zone ids: "
+            "adjacencies.json zone ids do not match region file zone ids: "
             f"only-in-graph={set(graph_zones) - common_ids} "
             f"only-in-regions={common_ids - set(graph_zones)}"
         )
@@ -101,7 +101,7 @@ def main() -> None:
 
     output = {
         "version": "2026-08-20",
-        "source": "Regiones.csv + Regione.csv + Régions.csv + Regions.csv + Adjacences.json",
+        "source": "regions-la.csv + regions-it.csv + regions-fr.csv + regions-en.csv + adjacencies.json",
         "languages": ["la", "it", "fr", "en"],
         "id_scheme": graph["id_scheme"],
         "movement": graph["movement"],

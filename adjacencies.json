@@ -20,11 +20,11 @@
     }
   },
   "counts": {
-    "zones": 276,
+    "zones": 277,
     "land": 162,
     "coastal": 105,
     "coastal_south": 2,
-    "seas": 8,
+    "seas": 9,
     "great_deserts": 1
   },
   "zones": [
@@ -53,13 +53,13 @@
           "edge": "cabotage"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -85,7 +85,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M002",
+          "id": "M003",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -111,7 +111,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -137,7 +137,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -163,7 +163,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -189,7 +189,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -215,7 +215,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -241,7 +241,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -255,7 +255,7 @@
       "face": null,
       "adjacencies": [
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -281,7 +281,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M007",
+          "id": "M008",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -365,7 +365,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -417,7 +417,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -443,7 +443,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -463,7 +463,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M007",
+          "id": "M008",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -559,6 +559,12 @@
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
         }
       ]
     },
@@ -581,7 +587,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M006",
+          "id": "M007",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -653,7 +659,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M002",
+          "id": "M003",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -709,6 +715,12 @@
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
         }
       ]
     },
@@ -731,7 +743,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M002",
+          "id": "M003",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -757,7 +769,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M002",
+          "id": "M003",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -809,7 +821,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -855,7 +867,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M008",
+          "id": "M009",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -881,7 +893,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -913,7 +925,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M006",
+          "id": "M007",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -945,7 +957,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M006",
+          "id": "M007",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -977,7 +989,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1003,7 +1015,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1029,7 +1041,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M002",
+          "id": "M003",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1055,7 +1067,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1093,7 +1105,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1125,7 +1137,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1151,7 +1163,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1203,7 +1215,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1229,7 +1241,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M006",
+          "id": "M007",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1255,13 +1267,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1287,7 +1293,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M006",
+          "id": "M007",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1307,7 +1313,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1321,7 +1327,7 @@
       "face": null,
       "adjacencies": [
         {
-          "id": "M004",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1379,13 +1385,13 @@
           "edge": "cabotage"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
         },
         {
-          "id": "M006",
+          "id": "M007",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1463,7 +1469,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1489,7 +1495,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M002",
+          "id": "M003",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1515,7 +1521,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1541,7 +1547,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1689,7 +1695,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1715,7 +1721,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1741,7 +1747,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1825,7 +1831,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M006",
+          "id": "M007",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1851,7 +1857,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1877,7 +1883,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -1959,6 +1965,12 @@
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
         }
       ]
     },
@@ -1981,7 +1993,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M006",
+          "id": "M007",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2039,12 +2051,6 @@
           "edge": "cabotage"
         },
         {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
           "id": "M003",
           "extra_cost": 0,
           "feature": null,
@@ -2071,7 +2077,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2097,7 +2103,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M006",
+          "id": "M007",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2123,7 +2129,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M002",
+          "id": "M003",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2175,7 +2181,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2195,7 +2201,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2216,6 +2222,12 @@
         },
         {
           "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2241,7 +2253,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2273,13 +2285,13 @@
           "edge": "cabotage"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
         },
         {
-          "id": "M006",
+          "id": "M007",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2297,12 +2309,6 @@
           "extra_cost": 0,
           "feature": null,
           "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
         },
         {
           "id": "M003",
@@ -2357,7 +2363,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M008",
+          "id": "M009",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2403,7 +2409,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M006",
+          "id": "M007",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2449,7 +2455,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M007",
+          "id": "M008",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2551,13 +2557,13 @@
           "edge": "cabotage"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2609,7 +2615,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M002",
+          "id": "M003",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2635,13 +2641,13 @@
           "edge": "cabotage"
         },
         {
-          "id": "M002",
+          "id": "M003",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2685,7 +2691,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2711,7 +2717,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M003",
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2737,7 +2743,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M002",
+          "id": "M003",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2763,7 +2769,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2807,13 +2813,13 @@
           "edge": "cabotage"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2839,7 +2845,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -2859,7 +2865,7 @@
           "edge": "cabotage"
         },
         {
-          "id": "M008",
+          "id": "M009",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3015,12 +3021,6 @@
       "face": null,
       "adjacencies": [
         {
-          "id": "C002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
           "id": "C034",
           "extra_cost": 0,
           "feature": null,
@@ -3039,25 +3039,7 @@
           "edge": "high_seas"
         },
         {
-          "id": "C041",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
           "id": "C043",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C044",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C045",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3069,19 +3051,7 @@
           "edge": "high_seas"
         },
         {
-          "id": "C057",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
           "id": "C075",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C081",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3123,25 +3093,7 @@
           "edge": "high_seas"
         },
         {
-          "id": "C117",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C120",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
           "id": "C121",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C128",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3171,6 +3123,116 @@
           "edge": "high_seas"
         },
         {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M003",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C027",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C037",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C041",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C043",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C044",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C045",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C078",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C081",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C110",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C124",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C128",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C145",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
           "id": "C147",
           "extra_cost": 0,
           "feature": null,
@@ -3189,7 +3251,13 @@
           "edge": "high_seas"
         },
         {
-          "id": "M003",
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M004",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3197,7 +3265,7 @@
       ]
     },
     {
-      "id": "M003",
+      "id": "M004",
       "kind": "sea",
       "parent_id": null,
       "face": null,
@@ -3221,12 +3289,6 @@
           "edge": "high_seas"
         },
         {
-          "id": "C027",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
           "id": "C031",
           "extra_cost": 0,
           "feature": null,
@@ -3234,12 +3296,6 @@
         },
         {
           "id": "C037",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C078",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3269,12 +3325,6 @@
           "edge": "high_seas"
         },
         {
-          "id": "C117",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
           "id": "C118",
           "extra_cost": 0,
           "feature": null,
@@ -3293,19 +3343,7 @@
           "edge": "high_seas"
         },
         {
-          "id": "C128",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
           "id": "C144",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C145",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3323,7 +3361,7 @@
           "edge": "high_seas"
         },
         {
-          "id": "M002",
+          "id": "M003",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3331,7 +3369,7 @@
       ]
     },
     {
-      "id": "M004",
+      "id": "M005",
       "kind": "sea",
       "parent_id": null,
       "face": null,
@@ -3403,25 +3441,7 @@
           "edge": "high_seas"
         },
         {
-          "id": "C061",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
           "id": "C062",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C070",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C073",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3457,19 +3477,13 @@
           "edge": "high_seas"
         },
         {
-          "id": "C150",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
           "id": "C157",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
         },
         {
-          "id": "M005",
+          "id": "M006",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3477,7 +3491,7 @@
       ]
     },
     {
-      "id": "M005",
+      "id": "M006",
       "kind": "sea",
       "parent_id": null,
       "face": null,
@@ -3501,6 +3515,12 @@
           "edge": "high_seas"
         },
         {
+          "id": "C061",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
           "id": "C064",
           "extra_cost": 0,
           "feature": null,
@@ -3514,6 +3534,12 @@
         },
         {
           "id": "C072",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C073",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3543,6 +3569,12 @@
           "edge": "high_seas"
         },
         {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
           "id": "C155",
           "extra_cost": 0,
           "feature": null,
@@ -3561,7 +3593,7 @@
           "edge": "high_seas"
         },
         {
-          "id": "M004",
+          "id": "M005",
           "extra_cost": 0,
           "feature": null,
           "edge": "high_seas"
@@ -3569,7 +3601,7 @@
       ]
     },
     {
-      "id": "M006",
+      "id": "M007",
       "kind": "sea",
       "parent_id": null,
       "face": null,
@@ -3643,7 +3675,7 @@
       ]
     },
     {
-      "id": "M007",
+      "id": "M008",
       "kind": "sea",
       "parent_id": null,
       "face": null,
@@ -3669,7 +3701,7 @@
       ]
     },
     {
-      "id": "M008",
+      "id": "M009",
       "kind": "sea",
       "parent_id": null,
       "face": null,

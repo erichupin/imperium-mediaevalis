@@ -161,15 +161,16 @@ T159;Second Empire Bulgare;Zagore;Collines;2;Ternovo;Esclaves
 T160;Principauté de Rostov;Zalessie;Plaines;1;;
 T161;République de Novgorod;Zavolochie;Forêts;2;;
 T162;Shérifat de la Mecque;Zubeïda;Désert;1;;
-D001;;Sahara;Désert;6;;
-M001;;Mer Noire;Mer;6;;
-M002;;Méditerranée Orientale;Mer;6;;
-M003;;Méditerranée Occidentale;Mer;6;;
-M004;;Océan Atlantique;Mer;6;;
-M005;;Mer du Nord;Mer;6;;
-M006;;Mer Baltique;Mer;6;;
-M007;;Mer Caspienne;Mer;6;;
-M008;;Mer Rouge;Mer;6;;
+D001;;Sahara;Désert;3;;
+M001;;Mer Noire;Mer;3;;
+M002;;Méditerranée Orientale;Mer;4;;
+M003;;Méditerranée Centrale;Mer;4;;
+M004;;Méditerranée Occidentale;Mer;4;;
+M005;;Océan Atlantique;Mer;4;;
+M006;;Mer du Nord;Mer;4;;
+M007;;Mer Baltique;Mer;3;;
+M008;;Mer Caspienne;Mer;3;;
+M009;;Mer Rouge;Mer;3;;
 C001;Royaume de Grenade;Al-Andalus;Côte;1;;
 C002;Despotat d'Épire;Albanie;Côte;1;;
 C003;Royaume du Portugal;Alentejo;Côte;1;Lisbonne;Vin

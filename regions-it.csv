@@ -161,15 +161,16 @@ T159;Secondo Impero Bulgaro;Zagoria;Colline;2;Tarnovo;Schiavi
 T160;Principato di Rostov;Zalesye;Pianure;1;;
 T161;Repubblica di Novgorod;Zavolochie;Foreste;2;;
 T162;Sceriffato della Mecca;Zubaida;Deserto;1;;
-D001;;Sahara;Deserto;6;;
-M001;;Mare Nero;Mare;6;;
-M002;;Mediterraneo Orientale;Mare;6;;
-M003;;Mediterraneo Occidentale;Mare;6;;
-M004;;Oceano Atlantico;Mare;6;;
-M005;;Mare del Nord;Mare;6;;
-M006;;Mar Baltico;Mare;6;;
-M007;;Mar Caspiano;Mare;6;;
-M008;;Mar Rosso;Mare;6;;
+D001;;Sahara;Deserto;3;;
+M001;;Mare Nero;Mare;3;;
+M002;;Mediterraneo Orientale;Mare;4;;
+M003;;Mediterraneo Centrale;Mare;4;;
+M004;;Mediterraneo Occidentale;Mare;4;;
+M005;;Oceano Atlantico;Mare;4;;
+M006;;Mare del Nord;Mare;4;;
+M007;;Mar Baltico;Mare;3;;
+M008;;Mar Caspiano;Mare;3;;
+M009;;Mar Rosso;Mare;3;;
 C001;Regno di Granada;Al-Andalus;Costa;1;;
 C002;Despotato d'Epiro;Albania;Costa;1;;
 C003;Regno del Portogallo;Alentejo;Costa;1;Lisbona;Vino

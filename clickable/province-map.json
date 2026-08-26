@@ -1,6 +1,6 @@
 {
   "version": "2026-08-20",
-  "source": "Regiones.csv + Regione.csv + Régions.csv + Regions.csv + Adjacences.json",
+  "source": "regions-la.csv + regions-it.csv + regions-fr.csv + regions-en.csv + adjacencies.json",
   "languages": [
     "la",
     "it",
@@ -22,9 +22,8 @@
     },
     "overlap": "same number is one place, two layers: T land units, C ships and ports. Not an adjacency.",
     "high_seas_mp": {
-      "without_astronomy": 6,
-      "with_astronomy": 2,
-      "status": "proposal"
+      "smaller": 3,
+      "bigger": 4
     }
   },
   "counts": {

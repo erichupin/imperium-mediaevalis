@@ -1,5 +1,5 @@
 {
-  "source": "Adjacences.csv",
+  "source": "adjacencies.csv",
   "id_scheme": {
     "T": "land territory",
     "C": "coastal area (Cnnn belongs to Tnnn; suffix s = south face)",
@@ -15,9 +15,8 @@
     },
     "overlap": "same number is one place, two layers: T land units, C ships and ports. Not an adjacency.",
     "high_seas_mp": {
-      "without_astronomy": 6,
-      "with_astronomy": 2,
-      "status": "proposal"
+      "smaller": 3,
+      "bigger": 4
     }
   },
   "counts": {
@@ -29,6 +28,3672 @@
     "great_deserts": 1
   },
   "zones": [
+    {
+      "id": "C001",
+      "kind": "coastal",
+      "parent_id": "T001",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C097",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C002",
+      "kind": "coastal",
+      "parent_id": "T002",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C110",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C003",
+      "kind": "coastal",
+      "parent_id": "T003",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C048",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C004",
+      "kind": "coastal",
+      "parent_id": "T004",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C005",
+      "kind": "coastal",
+      "parent_id": "T005",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C105",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C149",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C006",
+      "kind": "coastal",
+      "parent_id": "T006",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C008",
+      "kind": "coastal",
+      "parent_id": "T008",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C026",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C062",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C011",
+      "kind": "coastal",
+      "parent_id": "T011",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C058",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C014",
+      "kind": "coastal",
+      "parent_id": "T014",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C016",
+      "kind": "coastal",
+      "parent_id": "T016",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C032",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C139",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M007",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C019",
+      "kind": "coastal",
+      "parent_id": "T019",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C040",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C046",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C023",
+      "kind": "coastal",
+      "parent_id": "T023",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C098",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C109",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C026",
+      "kind": "coastal",
+      "parent_id": "T026",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C100",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C027",
+      "kind": "coastal",
+      "parent_id": "T027",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C078",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C030",
+      "kind": "coastal",
+      "parent_id": "T030",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C011",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C062",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C031",
+      "kind": "coastal",
+      "parent_id": "T031",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C103",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C153",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C032",
+      "kind": "coastal",
+      "parent_id": "T032",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C016",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M007",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C034",
+      "kind": "coastal",
+      "parent_id": "T034",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C035",
+      "kind": "coastal",
+      "parent_id": "T035",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C137",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C036",
+      "kind": "coastal",
+      "parent_id": "T036",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C040",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C063",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C134",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C037",
+      "kind": "coastal",
+      "parent_id": "T037",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C124",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C038",
+      "kind": "coastal",
+      "parent_id": "T038",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C051",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C119",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C039",
+      "kind": "coastal",
+      "parent_id": "T039",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C040",
+      "kind": "coastal",
+      "parent_id": "T040",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C019",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C036",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C134",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C041",
+      "kind": "coastal",
+      "parent_id": "T041",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C044",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C042",
+      "kind": "coastal",
+      "parent_id": "T042",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C061",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        }
+      ]
+    },
+    {
+      "id": "C043",
+      "kind": "coastal",
+      "parent_id": "T043",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C081",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C092",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C044",
+      "kind": "coastal",
+      "parent_id": "T044",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C041",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C045",
+      "kind": "coastal",
+      "parent_id": "T045",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C147",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C046",
+      "kind": "coastal",
+      "parent_id": "T046",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C019",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C048",
+      "kind": "coastal",
+      "parent_id": "T048",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C058",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C049",
+      "kind": "coastal",
+      "parent_id": "T049",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C092",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C130",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C049s",
+      "kind": "coastal",
+      "parent_id": "T049",
+      "face": "south",
+      "adjacencies": [
+        {
+          "id": "C130s",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C050",
+      "kind": "coastal",
+      "parent_id": "T050",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C158",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C051",
+      "kind": "coastal",
+      "parent_id": "T051",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C038",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C052",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C077",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C052",
+      "kind": "coastal",
+      "parent_id": "T052",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C051",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C077",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C101",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C053",
+      "kind": "coastal",
+      "parent_id": "T053",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C056",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C100",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C056",
+      "kind": "coastal",
+      "parent_id": "T056",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C053",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C125",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C057",
+      "kind": "coastal",
+      "parent_id": "T057",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C045",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C149",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C058",
+      "kind": "coastal",
+      "parent_id": "T058",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C011",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C048",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C060",
+      "kind": "coastal",
+      "parent_id": "T060",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C042",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C079",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C061",
+      "kind": "coastal",
+      "parent_id": "T061",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C042",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C070",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C062",
+      "kind": "coastal",
+      "parent_id": "T062",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C063",
+      "kind": "coastal",
+      "parent_id": "T063",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C036",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C116",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C064",
+      "kind": "coastal",
+      "parent_id": "T064",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C155",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C066",
+      "kind": "coastal",
+      "parent_id": "T066",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C115",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C119",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C070",
+      "kind": "coastal",
+      "parent_id": "T070",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C061",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C087",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C071",
+      "kind": "coastal",
+      "parent_id": "T071",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C115",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C072",
+      "kind": "coastal",
+      "parent_id": "T072",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C155",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C073",
+      "kind": "coastal",
+      "parent_id": "T073",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C075",
+      "kind": "coastal",
+      "parent_id": "T075",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C107",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C130",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C076",
+      "kind": "coastal",
+      "parent_id": "T076",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C071",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C125",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C077",
+      "kind": "coastal",
+      "parent_id": "T077",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C051",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C052",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        }
+      ]
+    },
+    {
+      "id": "C078",
+      "kind": "coastal",
+      "parent_id": "T078",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C027",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C145",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C079",
+      "kind": "coastal",
+      "parent_id": "T079",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C096",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C081",
+      "kind": "coastal",
+      "parent_id": "T081",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C043",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C147",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C082",
+      "kind": "coastal",
+      "parent_id": "T082",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C118",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C145",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C087",
+      "kind": "coastal",
+      "parent_id": "T087",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C070",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C158",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C088",
+      "kind": "coastal",
+      "parent_id": "T088",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C035",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C121",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C089",
+      "kind": "coastal",
+      "parent_id": "T089",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C098",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C121",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C090",
+      "kind": "coastal",
+      "parent_id": "T090",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C141",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C092",
+      "kind": "coastal",
+      "parent_id": "T092",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C043",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C049",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C093",
+      "kind": "coastal",
+      "parent_id": "T093",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C123",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C096",
+      "kind": "coastal",
+      "parent_id": "T096",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C079",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C097",
+      "kind": "coastal",
+      "parent_id": "T097",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C153",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C098",
+      "kind": "coastal",
+      "parent_id": "T098",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C023",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C100",
+      "kind": "coastal",
+      "parent_id": "T100",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C026",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C053",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        }
+      ]
+    },
+    {
+      "id": "C101",
+      "kind": "coastal",
+      "parent_id": "T101",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C052",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C136",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C103",
+      "kind": "coastal",
+      "parent_id": "T103",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C031",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C118",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C105",
+      "kind": "coastal",
+      "parent_id": "T105",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C122",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C107",
+      "kind": "coastal",
+      "parent_id": "T107",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C075",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C137",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C109",
+      "kind": "coastal",
+      "parent_id": "T109",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C023",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C116",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C110",
+      "kind": "coastal",
+      "parent_id": "T110",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C141",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C115",
+      "kind": "coastal",
+      "parent_id": "T115",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C066",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C071",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C116",
+      "kind": "coastal",
+      "parent_id": "T116",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C063",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C109",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C117",
+      "kind": "coastal",
+      "parent_id": "T117",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C027",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C128",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C118",
+      "kind": "coastal",
+      "parent_id": "T118",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C082",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C103",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C119",
+      "kind": "coastal",
+      "parent_id": "T119",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C038",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C066",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C120",
+      "kind": "coastal",
+      "parent_id": "T120",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C044",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C121",
+      "kind": "coastal",
+      "parent_id": "T121",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C122",
+      "kind": "coastal",
+      "parent_id": "T122",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C105",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C123",
+      "kind": "coastal",
+      "parent_id": "T123",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C093",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C124",
+      "kind": "coastal",
+      "parent_id": "T124",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C037",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C125",
+      "kind": "coastal",
+      "parent_id": "T125",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C056",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C126",
+      "kind": "coastal",
+      "parent_id": "T126",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C064",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C136",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C128",
+      "kind": "coastal",
+      "parent_id": "T128",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C130",
+      "kind": "coastal",
+      "parent_id": "T130",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C049",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C075",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C130s",
+      "kind": "coastal",
+      "parent_id": "T130",
+      "face": "south",
+      "adjacencies": [
+        {
+          "id": "C049s",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C162",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C134",
+      "kind": "coastal",
+      "parent_id": "T134",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C036",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C040",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        }
+      ]
+    },
+    {
+      "id": "C136",
+      "kind": "coastal",
+      "parent_id": "T136",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C101",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C137",
+      "kind": "coastal",
+      "parent_id": "T137",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C035",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C107",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C139",
+      "kind": "coastal",
+      "parent_id": "T139",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C016",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M007",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C141",
+      "kind": "coastal",
+      "parent_id": "T141",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C110",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C142",
+      "kind": "coastal",
+      "parent_id": "T142",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C046",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C098",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C144",
+      "kind": "coastal",
+      "parent_id": "T144",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C093",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C122",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C145",
+      "kind": "coastal",
+      "parent_id": "T145",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C078",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C082",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C147",
+      "kind": "coastal",
+      "parent_id": "T147",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C045",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C081",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C149",
+      "kind": "coastal",
+      "parent_id": "T149",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C150",
+      "kind": "coastal",
+      "parent_id": "T150",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C042",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C061",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C079",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C096",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C153",
+      "kind": "coastal",
+      "parent_id": "T153",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C031",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C097",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C154",
+      "kind": "coastal",
+      "parent_id": "T154",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C041",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C155",
+      "kind": "coastal",
+      "parent_id": "T155",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C064",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C072",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C157",
+      "kind": "coastal",
+      "parent_id": "T157",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C026",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C050",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C053",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C100",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C158",
+      "kind": "coastal",
+      "parent_id": "T158",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C050",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "C087",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "C162",
+      "kind": "coastal",
+      "parent_id": "T162",
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C130s",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "cabotage"
+        },
+        {
+          "id": "M008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "D001",
+      "kind": "great_desert",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "T012",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T043",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T045",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T065",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T067",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T081",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T092",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T102",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T138",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        },
+        {
+          "id": "T147",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "desert"
+        }
+      ]
+    },
+    {
+      "id": "M001",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C019",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C023",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C036",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C040",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C046",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C063",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C098",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C109",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C116",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M002",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C034",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C035",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C039",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C041",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C043",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C044",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C045",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C049",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C057",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C075",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C081",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C088",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C089",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C090",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C092",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C107",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C110",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C120",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C121",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C128",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C130",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C137",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C141",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C142",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C147",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C149",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C154",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M003",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C014",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C027",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C031",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C037",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C078",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C082",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C097",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C103",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C105",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C117",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C118",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C122",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C124",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C128",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C145",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C149",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C153",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M002",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M004",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C001",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C003",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C006",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C008",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C011",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C026",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C030",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C048",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C058",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C060",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C061",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C062",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C070",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C073",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C079",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C093",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C096",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C123",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C144",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C150",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M005",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M005",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C050",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C053",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C056",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C064",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C070",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C072",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C087",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C125",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C155",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C157",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C158",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "M004",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M006",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C038",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C051",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C052",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C066",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C071",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C076",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C101",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C115",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C119",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C126",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C136",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M007",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C016",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C032",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C139",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
+    {
+      "id": "M008",
+      "kind": "sea",
+      "parent_id": null,
+      "face": null,
+      "adjacencies": [
+        {
+          "id": "C049s",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C130s",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        },
+        {
+          "id": "C162",
+          "extra_cost": 0,
+          "feature": null,
+          "edge": "high_seas"
+        }
+      ]
+    },
     {
       "id": "T001",
       "kind": "land",
@@ -5500,3672 +9165,6 @@
           "extra_cost": 0,
           "feature": null,
           "edge": "land"
-        }
-      ]
-    },
-    {
-      "id": "C001",
-      "kind": "coastal",
-      "parent_id": "T001",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C097",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C144",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C002",
-      "kind": "coastal",
-      "parent_id": "T002",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C110",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C120",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C003",
-      "kind": "coastal",
-      "parent_id": "T003",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C048",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C004",
-      "kind": "coastal",
-      "parent_id": "T004",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C005",
-      "kind": "coastal",
-      "parent_id": "T005",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C105",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C149",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C006",
-      "kind": "coastal",
-      "parent_id": "T006",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C008",
-      "kind": "coastal",
-      "parent_id": "T008",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C026",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C062",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C011",
-      "kind": "coastal",
-      "parent_id": "T011",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C030",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C058",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C014",
-      "kind": "coastal",
-      "parent_id": "T014",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C016",
-      "kind": "coastal",
-      "parent_id": "T016",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C032",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C139",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M007",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C019",
-      "kind": "coastal",
-      "parent_id": "T019",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C040",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C046",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C023",
-      "kind": "coastal",
-      "parent_id": "T023",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C098",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C109",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C026",
-      "kind": "coastal",
-      "parent_id": "T026",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C008",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C100",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C157",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C027",
-      "kind": "coastal",
-      "parent_id": "T027",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C078",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C117",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C030",
-      "kind": "coastal",
-      "parent_id": "T030",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C011",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C062",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C031",
-      "kind": "coastal",
-      "parent_id": "T031",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C103",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C153",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C032",
-      "kind": "coastal",
-      "parent_id": "T032",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C016",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M007",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C034",
-      "kind": "coastal",
-      "parent_id": "T034",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C035",
-      "kind": "coastal",
-      "parent_id": "T035",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C088",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C137",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C036",
-      "kind": "coastal",
-      "parent_id": "T036",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C040",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C063",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C134",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C037",
-      "kind": "coastal",
-      "parent_id": "T037",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C124",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C038",
-      "kind": "coastal",
-      "parent_id": "T038",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C051",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C119",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C039",
-      "kind": "coastal",
-      "parent_id": "T039",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C040",
-      "kind": "coastal",
-      "parent_id": "T040",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C019",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C036",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C134",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C041",
-      "kind": "coastal",
-      "parent_id": "T041",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C044",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C154",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C042",
-      "kind": "coastal",
-      "parent_id": "T042",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C060",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C061",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C150",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        }
-      ]
-    },
-    {
-      "id": "C043",
-      "kind": "coastal",
-      "parent_id": "T043",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C081",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C092",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C044",
-      "kind": "coastal",
-      "parent_id": "T044",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C041",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C120",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C045",
-      "kind": "coastal",
-      "parent_id": "T045",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C057",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C147",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C046",
-      "kind": "coastal",
-      "parent_id": "T046",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C019",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C142",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C048",
-      "kind": "coastal",
-      "parent_id": "T048",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C058",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C049",
-      "kind": "coastal",
-      "parent_id": "T049",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C092",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C130",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C049s",
-      "kind": "coastal",
-      "parent_id": "T049",
-      "face": "south",
-      "adjacencies": [
-        {
-          "id": "C130s",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M008",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C050",
-      "kind": "coastal",
-      "parent_id": "T050",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C157",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C158",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C051",
-      "kind": "coastal",
-      "parent_id": "T051",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C038",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C052",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C077",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C052",
-      "kind": "coastal",
-      "parent_id": "T052",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C051",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C077",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C101",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C053",
-      "kind": "coastal",
-      "parent_id": "T053",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C056",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C100",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C157",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C056",
-      "kind": "coastal",
-      "parent_id": "T056",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C053",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C125",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C057",
-      "kind": "coastal",
-      "parent_id": "T057",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C045",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C149",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C058",
-      "kind": "coastal",
-      "parent_id": "T058",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C011",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C048",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C060",
-      "kind": "coastal",
-      "parent_id": "T060",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C042",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C079",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C150",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C157",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C061",
-      "kind": "coastal",
-      "parent_id": "T061",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C042",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C070",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C150",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C062",
-      "kind": "coastal",
-      "parent_id": "T062",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C008",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C030",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C063",
-      "kind": "coastal",
-      "parent_id": "T063",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C036",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C116",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C064",
-      "kind": "coastal",
-      "parent_id": "T064",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C126",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C155",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C066",
-      "kind": "coastal",
-      "parent_id": "T066",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C115",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C119",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C070",
-      "kind": "coastal",
-      "parent_id": "T070",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C061",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C087",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C071",
-      "kind": "coastal",
-      "parent_id": "T071",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C076",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C115",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C072",
-      "kind": "coastal",
-      "parent_id": "T072",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C155",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C073",
-      "kind": "coastal",
-      "parent_id": "T073",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C075",
-      "kind": "coastal",
-      "parent_id": "T075",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C107",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C130",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C076",
-      "kind": "coastal",
-      "parent_id": "T076",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C071",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C125",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C126",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C077",
-      "kind": "coastal",
-      "parent_id": "T077",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C051",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C052",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        }
-      ]
-    },
-    {
-      "id": "C078",
-      "kind": "coastal",
-      "parent_id": "T078",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C027",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C145",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C079",
-      "kind": "coastal",
-      "parent_id": "T079",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C060",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C096",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C150",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C081",
-      "kind": "coastal",
-      "parent_id": "T081",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C043",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C147",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C082",
-      "kind": "coastal",
-      "parent_id": "T082",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C118",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C145",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C087",
-      "kind": "coastal",
-      "parent_id": "T087",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C070",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C158",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C088",
-      "kind": "coastal",
-      "parent_id": "T088",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C035",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C089",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C121",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C089",
-      "kind": "coastal",
-      "parent_id": "T089",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C088",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C098",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C121",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C142",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C090",
-      "kind": "coastal",
-      "parent_id": "T090",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C141",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C142",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C092",
-      "kind": "coastal",
-      "parent_id": "T092",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C043",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C049",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C093",
-      "kind": "coastal",
-      "parent_id": "T093",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C123",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C144",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C096",
-      "kind": "coastal",
-      "parent_id": "T096",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C079",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C150",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C097",
-      "kind": "coastal",
-      "parent_id": "T097",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C153",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C098",
-      "kind": "coastal",
-      "parent_id": "T098",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C023",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C089",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C142",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C100",
-      "kind": "coastal",
-      "parent_id": "T100",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C026",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C053",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C157",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        }
-      ]
-    },
-    {
-      "id": "C101",
-      "kind": "coastal",
-      "parent_id": "T101",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C052",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C136",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C103",
-      "kind": "coastal",
-      "parent_id": "T103",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C031",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C118",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C105",
-      "kind": "coastal",
-      "parent_id": "T105",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C122",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C107",
-      "kind": "coastal",
-      "parent_id": "T107",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C075",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C137",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C109",
-      "kind": "coastal",
-      "parent_id": "T109",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C023",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C116",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C110",
-      "kind": "coastal",
-      "parent_id": "T110",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C141",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C115",
-      "kind": "coastal",
-      "parent_id": "T115",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C066",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C071",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C116",
-      "kind": "coastal",
-      "parent_id": "T116",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C063",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C109",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C117",
-      "kind": "coastal",
-      "parent_id": "T117",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C027",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C128",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C154",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C118",
-      "kind": "coastal",
-      "parent_id": "T118",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C082",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C103",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C119",
-      "kind": "coastal",
-      "parent_id": "T119",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C038",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C066",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C120",
-      "kind": "coastal",
-      "parent_id": "T120",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C044",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C121",
-      "kind": "coastal",
-      "parent_id": "T121",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C088",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C089",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C122",
-      "kind": "coastal",
-      "parent_id": "T122",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C105",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C144",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C123",
-      "kind": "coastal",
-      "parent_id": "T123",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C093",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C124",
-      "kind": "coastal",
-      "parent_id": "T124",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C037",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C125",
-      "kind": "coastal",
-      "parent_id": "T125",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C056",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C076",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C126",
-      "kind": "coastal",
-      "parent_id": "T126",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C064",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C076",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C136",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C128",
-      "kind": "coastal",
-      "parent_id": "T128",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C117",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C130",
-      "kind": "coastal",
-      "parent_id": "T130",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C049",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C075",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C130s",
-      "kind": "coastal",
-      "parent_id": "T130",
-      "face": "south",
-      "adjacencies": [
-        {
-          "id": "C049s",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C162",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M008",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C134",
-      "kind": "coastal",
-      "parent_id": "T134",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C036",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C040",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        }
-      ]
-    },
-    {
-      "id": "C136",
-      "kind": "coastal",
-      "parent_id": "T136",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C101",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C126",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C137",
-      "kind": "coastal",
-      "parent_id": "T137",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C035",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C107",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C139",
-      "kind": "coastal",
-      "parent_id": "T139",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C016",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M007",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C141",
-      "kind": "coastal",
-      "parent_id": "T141",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C090",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C110",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C142",
-      "kind": "coastal",
-      "parent_id": "T142",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C046",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C089",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C090",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C098",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C144",
-      "kind": "coastal",
-      "parent_id": "T144",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C093",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C122",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C145",
-      "kind": "coastal",
-      "parent_id": "T145",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C078",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C082",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C147",
-      "kind": "coastal",
-      "parent_id": "T147",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C045",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C081",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C149",
-      "kind": "coastal",
-      "parent_id": "T149",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C057",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C150",
-      "kind": "coastal",
-      "parent_id": "T150",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C042",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C060",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C061",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C079",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C096",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C153",
-      "kind": "coastal",
-      "parent_id": "T153",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C031",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C097",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C154",
-      "kind": "coastal",
-      "parent_id": "T154",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C041",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C117",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C155",
-      "kind": "coastal",
-      "parent_id": "T155",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C064",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C072",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C157",
-      "kind": "coastal",
-      "parent_id": "T157",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C026",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C050",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C053",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C060",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C100",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C158",
-      "kind": "coastal",
-      "parent_id": "T158",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C050",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "C087",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "C162",
-      "kind": "coastal",
-      "parent_id": "T162",
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C130s",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "cabotage"
-        },
-        {
-          "id": "M008",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "D001",
-      "kind": "great_desert",
-      "parent_id": null,
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "T012",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "desert"
-        },
-        {
-          "id": "T043",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "desert"
-        },
-        {
-          "id": "T045",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "desert"
-        },
-        {
-          "id": "T057",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "desert"
-        },
-        {
-          "id": "T065",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "desert"
-        },
-        {
-          "id": "T067",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "desert"
-        },
-        {
-          "id": "T081",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "desert"
-        },
-        {
-          "id": "T092",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "desert"
-        },
-        {
-          "id": "T102",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "desert"
-        },
-        {
-          "id": "T138",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "desert"
-        },
-        {
-          "id": "T147",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "desert"
-        }
-      ]
-    },
-    {
-      "id": "M001",
-      "kind": "sea",
-      "parent_id": null,
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C019",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C023",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C036",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C040",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C046",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C063",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C098",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C109",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C116",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C142",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "M002",
-      "kind": "sea",
-      "parent_id": null,
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C034",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C035",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C039",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C041",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C043",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C044",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C045",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C049",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C057",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C075",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C081",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C088",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C089",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C090",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C092",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C107",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C110",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C117",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C120",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C121",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C128",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C130",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C137",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C141",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C142",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C147",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C149",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C154",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "M003",
-      "kind": "sea",
-      "parent_id": null,
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C014",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C027",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C031",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C037",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C078",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C082",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C097",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C103",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C105",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C117",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C118",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C122",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C124",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C128",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C144",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C145",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C149",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C153",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M002",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "M004",
-      "kind": "sea",
-      "parent_id": null,
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C001",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C003",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C006",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C008",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C011",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C026",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C030",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C048",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C058",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C060",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C061",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C062",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C070",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C073",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C079",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C093",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C096",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C123",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C144",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C150",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C157",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M005",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "M005",
-      "kind": "sea",
-      "parent_id": null,
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C050",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C053",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C056",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C064",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C070",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C072",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C076",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C087",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C125",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C126",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C155",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C157",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C158",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "M004",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "M006",
-      "kind": "sea",
-      "parent_id": null,
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C038",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C051",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C052",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C066",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C071",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C076",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C101",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C115",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C119",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C126",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C136",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "M007",
-      "kind": "sea",
-      "parent_id": null,
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C016",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C032",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C139",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        }
-      ]
-    },
-    {
-      "id": "M008",
-      "kind": "sea",
-      "parent_id": null,
-      "face": null,
-      "adjacencies": [
-        {
-          "id": "C049s",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C130s",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
-        },
-        {
-          "id": "C162",
-          "extra_cost": 0,
-          "feature": null,
-          "edge": "high_seas"
         }
       ]
     }

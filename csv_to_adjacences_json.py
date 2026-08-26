@@ -2,7 +2,7 @@
 """
 csv_to_adjacences_json.py
 
-Converts map/Adjacences.csv into map/Adjacences.json, the language-neutral
+Converts map/adjacencies.csv into map/adjacencies.json, the language-neutral
 adjacency graph consumed by build_i18n_province_map.py.
 
 CSV format (semicolon-delimited, UTF-8 with BOM, one header row "Index"):
@@ -14,7 +14,7 @@ CSV format (semicolon-delimited, UTF-8 with BOM, one header row "Index"):
   - <extra_cost> is blank for 0, or an integer (1 = river, 3 = strait).
     Trailing columns are blank padding and are ignored.
 
-Derivation rules (must match the existing hand-built Adjacences.json):
+Derivation rules (must match the existing hand-built adjacencies.json):
   - kind:      T -> "land", C -> "coastal", M -> "sea", D -> "great_desert"
   - parent_id: coastal Cnnn[s] -> Tnnn (strip "C"/"s", prefix "T"); else null
   - face:      "south" if the id ends in "s", else null
@@ -29,7 +29,7 @@ Derivation rules (must match the existing hand-built Adjacences.json):
                is not an adjacency" rule.
 
 Usage:
-    python3 csv_to_adjacences_json.py [--csv Adjacences.csv] [--out Adjacences.json] [--check]
+    python3 csv_to_adjacences_json.py [--csv adjacencies.csv] [--out adjacencies.json] [--check]
 
     --check   Build in-memory and diff against the existing Adjacences.json
               instead of writing (used to validate this script against the
@@ -70,9 +70,8 @@ MOVEMENT = {
     },
     "overlap": "same number is one place, two layers: T land units, C ships and ports. Not an adjacency.",
     "high_seas_mp": {
-        "without_astronomy": 6,
-        "with_astronomy": 2,
-        "status": "proposal",
+        "smaller": 3,
+        "bigger": 4,
     },
 }
 
@@ -180,7 +179,7 @@ def build_graph(csv_path: Path) -> dict:
     zones.sort(key=lambda z: z["id"])
 
     graph = {
-        "source": "Adjacences.csv",
+        "source": "adjacencies.csv",
         "id_scheme": ID_SCHEME,
         "movement": MOVEMENT,
         "counts": {
@@ -218,8 +217,8 @@ def check_symmetry(graph: dict):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--csv", default="Adjacences.csv", type=Path)
-    ap.add_argument("--out", default="Adjacences.json", type=Path)
+    ap.add_argument("--csv", default="adjacencies.csv", type=Path)
+    ap.add_argument("--out", default="adjacencies.json", type=Path)
     ap.add_argument("--check", action="store_true", help="validate against existing --out instead of writing")
     args = ap.parse_args()
 
